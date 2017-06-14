@@ -1,0 +1,281 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDLG DIALOGEX 0, 0, 349, 228
+STYLE DS_SETFONT | DS_3DLOOK | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "cblauncher"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+END
+
+IDD_DLG_MAX DIALOGEX 0, 0, 509, 304
+STYLE DS_SETFONT | DS_3DLOOK | WS_POPUP | WS_CLIPSIBLINGS | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    CONTROL         "X",IDC_BTN_CLOSE,"Button",BS_OWNERDRAW | WS_TABSTOP,457,35,20,20
+    CONTROL         "_",IDC_BTN_MINBOX,"Button",BS_OWNERDRAW | WS_TABSTOP,440,35,20,20
+    CONTROL         "官方网站",IDC_BTN_OFFPAGE,"Button",BS_OWNERDRAW | WS_TABSTOP,41,52,50,14
+    CONTROL         "充值系统",IDC_BTN_CHARGE,"Button",BS_OWNERDRAW | WS_TABSTOP,109,52,50,14
+    CONTROL         "游戏论坛",IDC_BTN_BBS,"Button",BS_OWNERDRAW | WS_TABSTOP,305,52,50,14
+    CONTROL         "客服系统",IDC_BTN_CUS_SERVICE,"Button",BS_OWNERDRAW | WS_TABSTOP,378,52,50,14
+    CONTROL         "",IDC_EXPLORER1,"{8856F961-340A-11D0-A96B-00C04FD705A2}",NOT WS_VISIBLE | WS_TABSTOP,7,77,495,220
+END
+
+IDD_PLAY DIALOGEX 0, 0, 489, 303
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION EXE_TITLE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SHOCKWAVEFLASH1,
+                    "{D27CDB6E-AE6D-11CF-96B8-444553540000}",WS_TABSTOP,0,0,488,303
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 342
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 221
+    END
+
+    IDD_DLG_MAX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 502
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 297
+    END
+
+    IDD_PLAY, DIALOG
+    BEGIN
+        RIGHTMARGIN, 488
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,3
+ PRODUCTVERSION 1,0,0,3
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "北京纯白科技发展有限公司"
+            VALUE "FileDescription", EXE_TITLE
+            VALUE "FileVersion", "1.0.0.3"
+            VALUE "InternalName", "登陆器"
+            VALUE "LegalCopyright", "Copyright 2012 (C)"
+            VALUE "OriginalFilename", EXE_FILE
+            VALUE "ProductName", EXE_TITLE
+            VALUE "ProductVersion", "1.0.0.3"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_PNG_BK              PNG                     "res\\BK.PNG"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_MINBOX_NORMAL       BITMAP                  "res\\minbox0.bmp"
+IDB_MINBOX_FOCUS        BITMAP                  "res\\minbox1.bmp"
+IDB_OFFPAGE_FOCUS       BITMAP                  "res\\offpage1.bmp"
+IDB_OFFPAGE_NORMAL      BITMAP                  "res\\offpage0.bmp"
+IDB_BBS_NORMAL          BITMAP                  "res\\bbs0.bmp"
+IDB_BBS_FOCUS           BITMAP                  "res\\bbs1.bmp"
+IDB_CHARGE_NORMAL       BITMAP                  "res\\charge0.bmp"
+IDB_CHARGE_FOCUS        BITMAP                  "res\\charge1.bmp"
+IDB_CLOSE_NORMAL        BITMAP                  "res\\close0.bmp"
+IDB_CLOSE_FOCUS         BITMAP                  "res\\close1.bmp"
+IDB_KEFU_NORMAL         BITMAP                  "res\\kefu0.bmp"
+IDB_KEFU_FOCUS          BITMAP                  "res\\kefu1.bmp"
+IDB_SETTING             BITMAP                  "res\\SETTING.bmp"
+IDB_MUTE                BITMAP                  "res\\bitmap1.bmp"
+IDB_SOUND               BITMAP                  "res\\bitmap2.bmp"
+IDB_TRAYICON            BITMAP                  "res\\bmp00001.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DLG_MAX DLGINIT
+BEGIN
+    IDC_EXPLORER1, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x4ccb, 0x0000, 0x221b, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+IDD_PLAY DLGINIT
+BEGIN
+    IDC_SHOCKWAVEFLASH1, 0x376, 284, 0
+0x0000, 0x0000, 0x5567, 0x5566, 0x0900, 0x0000, 0x4ba8, 0x0000, 0x32da, 
+0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 0x0000, 0x0000, 0x0008, 
+0x0000, 0x0000, 0x0008, 0x000e, 0x0000, 0x0057, 0x0069, 0x006e, 0x0064, 
+0x006f, 0x0077, 0x0000, 0x0008, 0x0006, 0x0000, 0x002d, 0x0031, 0x0000, 
+0x0008, 0x0006, 0x0000, 0x002d, 0x0031, 0x0000, 0x0008, 0x000a, 0x0000, 
+0x0048, 0x0069, 0x0067, 0x0068, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 
+0x0008, 0x0006, 0x0000, 0x002d, 0x0031, 0x0000, 0x0008, 0x0000, 0x0000, 
+0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 0x0010, 0x0000, 0x0053, 0x0068, 
+0x006f, 0x0077, 0x0041, 0x006c, 0x006c, 0x0000, 0x0008, 0x0004, 0x0000, 
+0x0030, 0x0000, 0x0008, 0x0004, 0x0000, 0x0030, 0x0000, 0x0008, 0x0002, 
+0x0000, 0x0000, 0x0008, 0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 
+0x000d, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0008, 0x0004, 0x0000, 0x0031, 0x0000, 0x0008, 0x0004, 0x0000, 0x0030, 
+0x0000, 0x0008, 0x0000, 0x0000, 0x0008, 0x0004, 0x0000, 0x0030, 0x0000, 
+0x0008, 0x0008, 0x0000, 0x0061, 0x006c, 0x006c, 0x0000, 0x0008, 0x000c, 
+0x0000, 0x0066, 0x0061, 0x006c, 0x0073, 0x0065, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_TRAYICON MENU 
+BEGIN
+    POPUP "MAIN"
+    BEGIN
+        MENUITEM "刷新(F5)",                      ID_FRESHGAME
+        MENUITEM "影藏/恢复(F10)",                  ID_HIDETOGGLE
+        MENUITEM "清理缓存",                        ID_CLEANCACHE
+        MENUITEM "重新提示",                        ID_REHINT
+        MENUITEM SEPARATOR
+        MENUITEM "Flash设置",                     ID_FLASHSETTING
+        MENUITEM "退出(&X)",                      32786
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "cblauncher"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\cblauncher.ico"
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+

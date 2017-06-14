@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cblauncher", "cblauncher\cblauncher.vcproj", "{06A65D30-4C24-4AB4-964D-9D7A820D9CE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Release37Wan|Win32 = Release37Wan|Win32
+		Release4399|Win32 = Release4399|Win32
+		ReleaseFunshion|Win32 = ReleaseFunshion|Win32
+		ReleaseQL|Win32 = ReleaseQL|Win32
+		ReleaseSkyGame|Win32 = ReleaseSkyGame|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06A65D30-4C24-4AB4-964D-9D7A820D9CE5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{06A65D30-4C24-4AB4-964D-9D7A820D9CE5}.Debug|Win32.Build.0 = Debug|Win32
+		{06A65D30-4C24-4AB4-964D-9D7A820D9CE5}.Release|Win32.ActiveCfg = Release|Win32
+		{06A65D30-4C24-4AB4-964D-9D7A820D9CE5}.Release|Win32.Build.0 = Release|Win32
+		{06A65D30-4C24-4AB4-964D-9D7A820D9CE5}.Release37Wan|Win32.ActiveCfg = Release37Wan|Win32
+		{06A65D30-4C24-4AB4-964D-9D7A820D9CE5}.Release37Wan|Win32.Build.0 = Release37Wan|Win32
+		{06A65D30-4C24-4AB4-964D-9D7A820D9CE5}.Release4399|Win32.ActiveCfg = Release4399|Win32
+		{06A65D30-4C24-4AB4-964D-9D7A820D9CE5}.Release4399|Win32.Build.0 = Release4399|Win32
+		{06A65D30-4C24-4AB4-964D-9D7A820D9CE5}.ReleaseFunshion|Win32.ActiveCfg = ReleaseFunshion|Win32
+		{06A65D30-4C24-4AB4-964D-9D7A820D9CE5}.ReleaseFunshion|Win32.Build.0 = ReleaseFunshion|Win32
+		{06A65D30-4C24-4AB4-964D-9D7A820D9CE5}.ReleaseQL|Win32.ActiveCfg = ReleaseQL|Win32
+		{06A65D30-4C24-4AB4-964D-9D7A820D9CE5}.ReleaseQL|Win32.Build.0 = ReleaseQL|Win32
+		{06A65D30-4C24-4AB4-964D-9D7A820D9CE5}.ReleaseSkyGame|Win32.ActiveCfg = ReleaseSkyGame|Win32
+		{06A65D30-4C24-4AB4-964D-9D7A820D9CE5}.ReleaseSkyGame|Win32.Build.0 = ReleaseSkyGame|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
